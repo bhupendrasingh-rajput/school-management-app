@@ -1,0 +1,42 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+}
+
+.input-field {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 5vh;
+}
+
+.input-field label {
+    height: 100%;
+    width: 20%;
+    font-size: large;
+}
+
+.input-field .input {
+    height: 100%;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    outline: none;
+    padding-inline: 2vw;
+}
+
+.input[type=number]::-webkit-inner-spin-button,
+.input[type=number]::-webkit-outer-spin-button {
+    display: none;
+}
+
+.button {
+    width: 40%;
+    height: 6vh;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    outline: none;
+    padding-inline: 2vw;
+    cursor: pointer;
+}

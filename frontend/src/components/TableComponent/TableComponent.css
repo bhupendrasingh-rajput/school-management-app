@@ -1,0 +1,13 @@
+.table {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.table tr {
+    height: 5vh;
+    text-align: center;
+}
+
+.action {
+    width: 5vw;
+}
