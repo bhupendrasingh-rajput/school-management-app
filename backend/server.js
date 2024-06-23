@@ -7,6 +7,7 @@ const connectToDatabase = require('./config/mongoDb.config');
 const classRoutes = require('./routes/classRoutes');
 const teacherRoutes = require('./routes/teacherRoutes');
 const studentRoutes = require('./routes/studentRoutes');
+require('dotenv').config();
 
 app.use(cors());
 app.use(express.json());
