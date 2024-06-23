@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const API_URL = 'http://localhost:8000/api/teachers';
+const API_URL = `${process.env.REACT_APP_BACKEND_URI}/api/teachers`;
 
 // Get all teachers
 const getTeachers = async () => {

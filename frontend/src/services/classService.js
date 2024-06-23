@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const API_URL = 'http://localhost:8000/api/classes';
+const API_URL = `${process.env.REACT_APP_BACKEND_URI}/api/classes`;
 
 // Get all classes
 const getClasses = async () => {
